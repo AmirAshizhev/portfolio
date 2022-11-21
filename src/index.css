@@ -1,4 +1,5 @@
 @import url(../src/vendor/normalize.css);
+@import url(../src/vendor/fonts/fonts.css);
 
 @import url(./blocks/app/app.css);
 
@@ -7,3 +8,5 @@
 @import url(./blocks/main/main.css);
 
 @import url(./blocks/footer/footer.css);
+
+@import url(./blocks/portfolio/portfolio.css);
