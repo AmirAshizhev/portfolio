@@ -16,6 +16,7 @@
   line-height: 58px;
   letter-spacing: -0.04em;
   margin: 0;
+  color: #566F7D;
 }
 
 .portfolio__about {
@@ -24,6 +25,7 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 20px;
+  color: #566F7D;
 }
 
 .portfolio__info {
@@ -34,6 +36,7 @@
   font-size: 14px;
   line-height: 22px;
   text-align: left;
+  color: #566F7D;
 }
 
 .portfolio__link {
@@ -45,6 +48,11 @@
   text-decoration: none;
   color: #000;
   align-self: end
+}
+
+.portfolio__link:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .portfolio__photo{
