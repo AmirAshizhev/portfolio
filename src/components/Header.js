@@ -1,13 +1,16 @@
 function Header() {
   return(
     <header className='header'>
-      <a>Амир Ашижев</a>
-      <nav>
-        <ul>
-          <li>Обо мне</li>
-          <li>Проекты</li>
-        </ul>
-      </nav>
+      <div className='header__box'>
+        <a>Амир Ашижев</a>
+        <nav>
+          <ul>
+            <li>Обо мне</li>
+            <li>Проекты</li>
+          </ul>
+        </nav>
+      </div>
+
     </header>
   )
 }
