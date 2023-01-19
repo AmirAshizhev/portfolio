@@ -4,7 +4,7 @@
 }
 
 .header__box{
-  height: 50px;
+  height: 34px;
   background-color: royalblue;
   max-width: 1100px;
   margin: 0 auto;
@@ -12,6 +12,22 @@
 
   display: flex;
   justify-content: space-between;
+  padding: 20px;
+}
+
+.header__link{
+  display: block;
+  color: #000;
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.header__link:hover{
+  opacity: 0.8;
 }
 
 @media (max-width: 1200px) {
@@ -28,4 +44,12 @@
   .header__box {
     margin: 0 20px;
   }
+
+  .header__link{
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  
 }

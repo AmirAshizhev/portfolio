@@ -1,8 +1,10 @@
+import { Link } from 'react-router-dom';
+
 function Header() {
   return(
     <header className='header'>
       <div className='header__box'>
-        <a>Амир Ашижев</a>
+        <Link className='header__link' to="/">Амир Ашижев</Link>
         <nav>
           <ul>
             <li>Обо мне</li>
