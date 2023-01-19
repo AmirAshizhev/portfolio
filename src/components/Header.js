@@ -1,16 +1,12 @@
 import { Link } from 'react-router-dom';
+import NavBar from './NavBar';
 
 function Header() {
   return(
     <header className='header'>
       <div className='header__box'>
         <Link className='header__link' to="/">Амир Ашижев</Link>
-        <nav>
-          <ul>
-            <li>Обо мне</li>
-            <li>Проекты</li>
-          </ul>
-        </nav>
+        <NavBar/>
       </div>
 
     </header>
