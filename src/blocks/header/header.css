@@ -5,7 +5,7 @@
 
 .header__box{
   height: 34px;
-  background-color: royalblue;
+  background-color: #566F7D;
   max-width: 1100px;
   margin: 0 auto;
   border-radius: 0 0 10px 10px;
@@ -17,7 +17,7 @@
 
 .header__link{
   display: block;
-  color: #000;
+  color: #F7F7F5;
   text-decoration: none;
   font-family: 'Inter';
   font-style: normal;
