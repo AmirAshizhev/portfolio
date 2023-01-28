@@ -23,3 +23,10 @@
 .navigation__link:hover{
   opacity: 0.8;
 }
+
+@media(max-width: 768px) {
+  .navigation__list{
+    margin-top: 2px;
+    gap: 10px;
+  }
+}
