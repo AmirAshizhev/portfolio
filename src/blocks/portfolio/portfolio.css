@@ -96,6 +96,7 @@
   .portfolio__info{
     font-size: 11px;
     line-height: 16px;
+    text-align: justify;
   }
 }
 

@@ -19,7 +19,7 @@ function Projects () {
   return (
     <section className='projects'>
       <div>
-
+        
       </div>
       <ul>
         {cardlist}
