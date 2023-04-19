@@ -21,7 +21,7 @@ function Projects () {
       <div>
         
       </div>
-      <ul>
+      <ul className='projects__list'>
         {cardlist}
       </ul>
     </section>

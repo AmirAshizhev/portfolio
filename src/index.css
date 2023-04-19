@@ -13,4 +13,6 @@
 
 @import url(./blocks/projects/projects.css);
 
+@import url(./blocks/project-card/progect-card.css);
+
 @import url(./blocks/navigation/navigation.css);
