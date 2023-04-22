@@ -20,6 +20,14 @@
   align-self: center;
   justify-self: center;
 }
+
+.progect-card__img_false{
+  width: 100%;
+  background-image: url('../../images/noneImage.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .progect-card__info{
   background: #566F7D;;
   display: grid;
