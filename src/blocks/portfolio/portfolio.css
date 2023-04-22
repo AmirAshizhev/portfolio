@@ -63,6 +63,12 @@
   border-radius: 10px;
 }
 
+@media (max-width: 1024px) {
+  .portfolio {
+    margin: 0 50px;
+  }
+}
+
 
 
 @media (max-width: 768px) {
@@ -100,6 +106,8 @@
   }
 }
 
-@media (max-width: 320px) {
-  
+@media (max-width: 708px) {
+  .portfolio {
+    margin: 0 20px;
+  }
 }
