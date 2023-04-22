@@ -32,7 +32,6 @@
   background: #566F7D;;
   display: grid;
   border-radius: 0 0 12px 12px;
-  grid-template-columns: calc(179px * 0.76) calc(230px * 0.76);
   justify-items: center;
   align-items: center;
   height: calc(56px);
@@ -59,4 +58,5 @@
   letter-spacing: 0.003em;
   margin: 0
 }
+
 

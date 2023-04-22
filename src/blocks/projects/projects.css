@@ -1,5 +1,5 @@
 .projects{
-
+  width: 1000px;
 }
 .projects__list{
   padding: 0;
@@ -8,4 +8,27 @@
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 32px;
+}
+
+@media (max-width: 1110px){
+
+
+  .projects{
+    margin: 0 50px;
+  }
+  .projects__list{
+    grid-template-columns: auto auto;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 708px){
+
+  .projects{
+    margin: 0 20px;
+  }
+  .projects__list{
+    grid-template-columns:  auto;
+    gap: 32px;
+  }
 }

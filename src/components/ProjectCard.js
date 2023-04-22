@@ -1,4 +1,4 @@
-import noneImage from '../images/noneImage.svg'
+// import noneImage from '../images/noneImage.svg's
 
 function ProjectCard({ name, stack, img }) {
 
@@ -6,7 +6,7 @@ function ProjectCard({ name, stack, img }) {
     <li className='progect-card'>
       {img
         ? 
-          <img src={img} alt='' className='progect-card__img'/> 
+          <img src={img} alt=''  className='progect-card__img'/> 
         : 
           <div className='progect-card__img progect-card__img_false'/>
       }
