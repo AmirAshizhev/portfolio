@@ -1,6 +1,6 @@
 .portfolio {
   display: grid;
-  grid-template-columns: minmax(min-content, 600px) auto;
+  grid-template-columns: minmax(min-content, 778px) min-content;
   grid-template-rows: auto auto auto auto;
   justify-items: start;
   column-gap: 30px;
@@ -65,7 +65,7 @@
 
 @media (max-width: 1024px) {
   .portfolio {
-    margin: 0 50px;
+    /* margin: 0 50px; */
   }
 }
 
@@ -108,6 +108,6 @@
 
 @media (max-width: 708px) {
   .portfolio {
-    margin: 0 20px;
+    /* margin: 0 20px; */
   }
 }

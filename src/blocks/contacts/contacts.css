@@ -1,4 +1,5 @@
 .contacts{
+  margin-top: 40px;
   display: grid;
   grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content);
   gap: 40px;
@@ -67,4 +68,26 @@
 
 .media__link_site_linkedin{
   background-image: url(../../images/linkedIn__icon.svg);
+}
+
+
+@media (max-width: 708px){
+
+  .contacts{
+    display: grid;
+    grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content);
+    gap: 5px;
+  }
+
+  .texting__item{
+    position: relative;
+    margin-left: 41px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: start;
+  }
+  
 }
