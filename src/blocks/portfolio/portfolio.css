@@ -27,7 +27,7 @@
 }
 
 .portfolio__info {
-  max-width: 600px;
+  max-width: 668px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -63,13 +63,6 @@
   border-radius: 10px;
 }
 
-@media (max-width: 1024px) {
-  .portfolio {
-    /* margin: 0 50px; */
-  }
-}
-
-
 
 @media (max-width: 768px) {
   .portfolio {
@@ -103,11 +96,5 @@
     font-size: 11px;
     line-height: 16px;
     text-align: justify;
-  }
-}
-
-@media (max-width: 708px) {
-  .portfolio {
-    /* margin: 0 20px; */
   }
 }

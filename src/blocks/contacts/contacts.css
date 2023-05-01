@@ -1,8 +1,6 @@
 .contacts{
   margin-top: 40px;
   width: 1100px;
-
-  /* align-self: start; */
 }
 
 .contacts__box{
@@ -78,21 +76,17 @@
 
 @media (max-width: 1200px) {
   .contacts{
-    /* margin-top: 40px; */
     width: auto;
-  
     align-self: start;
   }
 }
 
-@media (max-width: 708px){
-
+@media (max-width: 768px){
   .contacts{
     display: grid;
     grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content);
     gap: 5px;
   }
-
   .texting__item{
     position: relative;
     margin-left: 41px;
@@ -104,4 +98,13 @@
     text-align: start;
   }
   
+}
+
+@media (max-width: 708px){
+  .contacts{
+    display: grid;
+    grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content);
+    gap: 5px;
+  }
+
 }

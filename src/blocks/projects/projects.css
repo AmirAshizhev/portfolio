@@ -13,37 +13,16 @@
 }
 
 @media (max-width: 1110px){
-
-
-  .projects{
-
-  }
   .projects__list{
     grid-template-columns: auto auto;
     gap: 32px;
   }
 }
 
-@media (max-width: 1024px){
-  .projects__list{
-    /* margin: 0 50px; */
-  }
-}
-
-/* @media (max-width: 926px){
-  .projects__list{
-    margin: 0 50px;
-  }
-} */
 
 @media (max-width: 768px){
-
-  .projects{
-
-  }
   .projects__list{
     grid-template-columns:  auto;
     gap: 32px;
-    /* margin: 0 20px; */
   }
 }
