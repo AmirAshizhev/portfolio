@@ -8,7 +8,7 @@ function Main() {
     <main className='main'>
       <div className='main__box'>
         <Routes>
-          <Route path='/' element={<Portfolio/>}/>
+          <Route path='/portfolio' element={<Portfolio/>}/>
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/about-me' element={<About/>}/>
         </Routes>
