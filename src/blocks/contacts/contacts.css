@@ -9,6 +9,16 @@
   gap: 40px;
 }
 
+.contacts__title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  margin-top: 0;
+  color: #566F7D;
+}
+
 .texting__list{
   margin: 0; 
   padding: 0;
