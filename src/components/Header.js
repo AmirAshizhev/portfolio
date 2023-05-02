@@ -5,7 +5,7 @@ function Header() {
   return(
     <header className='header'>
       <div className='header__box'>
-        <Link className='header__link' to="/">Амир Ашижев</Link>
+        <Link className='header__link' to="/portfolio">Амир Ашижев</Link>
         <NavBar/>
       </div>
 
