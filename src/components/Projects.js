@@ -8,6 +8,7 @@ function Projects ({handleClosePopup, onCardClick}) {
     <ProjectCard 
       card={card}
       key={i}
+      img={card.image}
       name={card.name}
       stack={card.stack} 
       onCardClick={onCardClick}

@@ -23,6 +23,9 @@
   height: calc((91px + 91px + 57px)*0.76);
   align-self: center;
   justify-self: center;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
 }
 
 .progect-card__img_false{

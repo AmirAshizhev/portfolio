@@ -52,6 +52,10 @@
   cursor: pointer;
 }
 
+.popup__img{
+  border-radius: 10px 10px 0 0;
+}
+
 .popup__title{
   color: #566F7D;
   font-family: 'Inter';
@@ -86,5 +90,15 @@
     top: -36px;
     right: 0px;
     background-size: contain;
+  }
+
+  .popup__title{
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .popup__span{
+    font-weight: 400;
+    font-size: 12px;
   }
 }
