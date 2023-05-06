@@ -8,7 +8,7 @@ export const projectData = [
     stack: 'HTML, CSS, JS, SCSS, webpack', 
     ghLink: 'https://github.com/IgorTimonin/YandexHackathon', 
     link: 'https://yandex-hackathon.vercel.app/', 
-    about: 'Проект, выполенный в рамках хакатона, - HR landing page, на которой рассказывается о вакансиях экспертов сопровождения и работе в Яндекс Практикуме. Эксперты сопровождения - это наставники и ревьюеры, работающие парт-тайм на обучающих курсах Практикума.',
+    about: 'Проект, выполенный в команде в рамках хакатона, - HR landing page, на которой рассказывается о вакансиях экспертов сопровождения и работе в Яндекс Практикуме. Эксперты сопровождения - это наставники и ревьюеры, работающие парт-тайм на обучающих курсах Практикума.',
     image: previewHachaton,
   },
   {
@@ -36,7 +36,7 @@ export const projectData = [
     image: '',
   },
   {
-    name: 'Путешествие по России', 
+    name: 'Путешествия по России', 
     stack: 'HTML5, CSS3', 
     ghLink: 'https://github.com/AmirAshizhev/russian-travel', 
     link: 'https://amirashizhev.github.io/russian-travel/', 
