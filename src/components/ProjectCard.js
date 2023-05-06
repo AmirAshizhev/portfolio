@@ -1,9 +1,13 @@
 // import noneImage from '../images/noneImage.svg's
 
-function ProjectCard({ name, stack, img }) {
+function ProjectCard({ name, stack, img, onCardClick, card,}) {
+
+  function handleClick(){
+    onCardClick(card)
+  }
 
   return (
-    <li className='progect-card'>
+    <li className='progect-card' onClick={handleClick}> 
       {img
         ? 
           <img src={img} alt=''  className='progect-card__img'/> 

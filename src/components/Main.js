@@ -3,13 +3,13 @@ import About from './About';
 import Portfolio from './Portfolio';
 import Projects from './Projects';
 
-function Main() {
+function Main({handleClosePopup, onCardClick}) {
   return(
     <main className='main'>
       <div className='main__box'>
         <Routes>
           <Route path='/portfolio' element={<Portfolio/>}/>
-          <Route path='/projects' element={<Projects/>}/>
+          <Route path='/projects' element={<Projects  onCardClick={onCardClick}/>}/>
           <Route path='/about-me' element={<About/>}/>
         </Routes>
       </div>
