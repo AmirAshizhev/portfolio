@@ -13,9 +13,6 @@ function Main() {
           <Route path='/about-me' element={<About/>}/>
         </Routes>
       </div>
-
-      
-      
     </main>
   )
 

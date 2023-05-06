@@ -1,18 +1,12 @@
+import { projectData } from '../data';
 import ProjectCard from './ProjectCard';
 
 function Projects () {
 
-  const projectData = [
-    {name: 'Место', stack: 'основной стек'},
-    {name: 'Руссиан травел', stack: 'основной стек'},
-    {name: 'Мувиес эксплорер', stack: 'основной стек'},
-    {name: 'Руссиан травел', stack: 'основной стек'},
-    {name: 'Мувиес эксплорер', stack: 'основной стек'}
-  ];
-
-  const cardlist = projectData.map((card) => (
-    // console.log(card.name, card.stack)
+  const cardlist = projectData.map((card, i) => (
+    // console.log(card.name, card.stack, i)
     <ProjectCard 
+      key={i}
       name={card.name}
       stack={card.stack} 
     />
