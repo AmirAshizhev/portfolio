@@ -7,18 +7,9 @@ function Footer() {
           <li className='footer__item'>
             <a className='footer__link' rel="noreferrer noopener" href='https://www.linkedin.com/in/amirashizhev/' target='_blank'>LinkedIn</a>
           </li>
-          {/* <li className='footer__item'>
-            <a className='footer__link' rel="noreferrer noopener" href='https://t.me/Embraze11' target='_blank'>Telegram</a>
-          </li>
-          <li className='footer__item'>
-            <a className='footer__link' rel="noreferrer noopener" href='mailto:amirashizhev@yandex.ru'>Email</a>
-          </li> */}
           <li className='footer__item'>
             <a className='footer__link' rel="noreferrer noopener" href='https://github.com/AmirAshizhev' target='_blank'>Github</a>
           </li>
-          {/* <li className='footer__item'>
-            <a className='footer__link' rel="noreferrer noopener" href='mailto:amirashizhev@yandex.ru'>Email</a>
-          </li> */}
         </ul>
       </div>
     </footer>

@@ -7,14 +7,14 @@
   margin: 0;
   list-style-type: none;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 32px;
   margin: 0 auto;
 }
 
 @media (max-width: 1110px){
   .projects__list{
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     gap: 32px;
   }
 }
