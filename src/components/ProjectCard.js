@@ -16,7 +16,6 @@ function ProjectCard({ name, stack, img, onCardClick, card,}) {
       }
       <div className='progect-card__info'>
         <h4 className='progect-card__title'>{name}</h4>
-        {/* <p className='progect-card__about'>{`Стек технологий: ${stack}`}</p>    */}
       </div>
 
     </li>

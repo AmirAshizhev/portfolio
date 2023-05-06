@@ -5,11 +5,11 @@ function ProjectPopup ({isOpen, project, handleClosePopup}){
         <button className="popup__btn" type="button" area-label="Закрыть" onClick={handleClosePopup}></button>
         <img src="" alt="" className="popup__img"/>
         <div className="popup__about">
-          <p className="popup__title">Название:{project?.name}</p>
-          <p className="popup__title">Стек технологий:</p>
-          <p className="popup__title">Ссылка на гитхаб:</p>
-          <p className="popup__title">Ссылка на саму работу:</p>
-          <p className="popup__title">Описание:</p>
+          <p className="popup__title">Название: <span className="popup__span">{project?.name}</span></p>
+          <p className="popup__title">Стек технологий: <span className="popup__span">{project?.name}</span></p>
+          <p className="popup__title">Ссылка на гитхаб: <span className="popup__span">{project?.name}</span></p>
+          <p className="popup__title">Ссылка на саму работу: <span className="popup__span">{project?.name}</span></p>
+          <p className="popup__title">Описание: <span className="popup__span">{project?.name}</span></p>
         </div>
       </div>
     </div>
