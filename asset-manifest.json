@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.08179d6d.css",
-    "main.js": "/portfolio/static/js/main.fcd722d2.js",
+    "main.css": "/portfolio/static/css/main.552831ba.css",
+    "main.js": "/portfolio/static/js/main.5d66dcbd.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Inter-Medium.woff": "/portfolio/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
     "static/media/Inter-Black.woff": "/portfolio/static/media/Inter-Black.c6938660eec019fefd68.woff",
@@ -17,12 +17,13 @@
     "static/media/linkedIn__icon.svg": "/portfolio/static/media/linkedIn__icon.f8b453660a4edc5fc42d.svg",
     "static/media/email__icon.svg": "/portfolio/static/media/email__icon.667778111d6a9476393c.svg",
     "index.html": "/portfolio/index.html",
-    "main.08179d6d.css.map": "/portfolio/static/css/main.08179d6d.css.map",
-    "main.fcd722d2.js.map": "/portfolio/static/js/main.fcd722d2.js.map",
+    "static/media/popup__exit-button.svg": "/portfolio/static/media/popup__exit-button.039f1f5203f653b4bacd.svg",
+    "main.552831ba.css.map": "/portfolio/static/css/main.552831ba.css.map",
+    "main.5d66dcbd.js.map": "/portfolio/static/js/main.5d66dcbd.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08179d6d.css",
-    "static/js/main.fcd722d2.js"
+    "static/css/main.552831ba.css",
+    "static/js/main.5d66dcbd.js"
   ]
 }
