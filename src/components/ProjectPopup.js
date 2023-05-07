@@ -1,7 +1,7 @@
 function ProjectPopup ({isOpen, project, handleClosePopup}){
 
   return(
-    <div className={`popup ${isOpen && 'popup_opened'}`}>
+    <div className={`popup ${isOpen && 'popup_opened'}`} onClick={handleClosePopup}>
       <div className="popup__container">
         <button className="popup__btn" type="button" area-label="Закрыть" onClick={handleClosePopup}></button>
         <img src={project?.image} alt={project?.name} className="popup__img"/>
