@@ -1,0 +1,11 @@
+.page{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page_blocked{
+  /* position: fixed; */
+  overflow: hidden;
+}

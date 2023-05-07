@@ -11,6 +11,7 @@ function App() {
   const [isPopupOpened, setisPopupOpened] = useState(false);
 
   function handleCardClick(card) {
+    document.body.style.overflow =  'hidden';
     setisPopupOpened(true);
     setSelectedProject(card);
   }
@@ -18,13 +19,16 @@ function App() {
   function handleClosePopup() {
     setisPopupOpened(false);
     setSelectedProject(null);
+    document.body.style.overflow =  'visible';
   }
 
   return (
     <div className='App'>
-      <Header/>
-      <Main onCardClick={handleCardClick} />
-      <Footer/>
+      <div className={`page ${selectedProject && 'page_blocked'}`}>
+        <Header/>
+        <Main onCardClick={handleCardClick} />
+        <Footer/>
+      </div>
       <ProjectPopup isOpen={isPopupOpened} project={selectedProject} handleClosePopup={handleClosePopup}/>
     </div>
   );
