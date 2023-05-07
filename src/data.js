@@ -31,7 +31,7 @@ export const projectData = [
     name: 'Поисковик фильмов', 
     stack: 'React.js, JavaScript, HTML5, CSS3, Node.js', 
     ghLink: 'https://github.com/AmirAshizhev/movies-explorer-frontend', 
-    link: 'проект пока не размещен', 
+    link: null, 
     about: 'Дипломный проект в рамках завершения Яндекс.Практикума Веб-разработчик. ',
     image: '',
   },
