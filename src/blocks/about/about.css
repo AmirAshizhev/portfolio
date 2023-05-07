@@ -1,5 +1,7 @@
 .about{
-
+  display: grid;
+  grid-template-columns: minmax(min-content, 550px);
+  gap: 30px;
 }
 
 .about__title{
@@ -11,7 +13,32 @@
   letter-spacing: -0.04em;
   margin: 0;
   color: #566F7D;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  /* justify-self: center; */
+}
+
+.about__subtitle{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #566F7D;
+  margin: 0;
+  /* justify-self: center; */
+}
+
+.about__info{
+  max-width: 668px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
+  color: #566F7D;
+  margin: 0;
+  /* justify-self: center; */
 }
 
 .about__resume {
@@ -45,6 +72,10 @@
 }
 
 @media (max-width: 768px){
+
+  .about{
+    gap: 10px;
+  }
 
   .about__title{
     font-size: 40px;

@@ -1,6 +1,6 @@
 function Contacts() {
   return(
-    <section className="contacts">
+    <div className="contacts">
       <div className="contacts__box">
         <h3 className="contacts__title">Написать мне:</h3>
         <ul className="contacts__list">
@@ -15,7 +15,7 @@ function Contacts() {
           </li> 
         </ul> 
       </div>
-    </section> 
+    </div> 
   )
 }
 
