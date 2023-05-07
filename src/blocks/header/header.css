@@ -1,5 +1,5 @@
 .header {
-  margin-bottom: 40px;
+  margin-bottom: 100px;
   width: 100%;
 }
 
@@ -38,6 +38,11 @@
 }
 
 @media (max-width: 768px) {
+  .header {
+    margin-bottom: 40px;
+  }
+  
+
   .header__box {
     margin: 0 auto;
     max-width: 588px;

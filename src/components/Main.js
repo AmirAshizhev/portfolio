@@ -3,7 +3,7 @@ import About from './About';
 import Portfolio from './Portfolio';
 import Projects from './Projects';
 
-function Main({handleClosePopup, onCardClick}) {
+function Main({onCardClick}) {
   return(
     <main className='main'>
       <div className='main__box'>

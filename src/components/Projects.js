@@ -1,10 +1,9 @@
 import { projectData } from '../data';
 import ProjectCard from './ProjectCard';
 
-function Projects ({handleClosePopup, onCardClick}) {
+function Projects ({onCardClick}) {
 
   const cardlist = projectData.map((card, i) => (
-    // console.log(card.name, card.stack, i)
     <ProjectCard 
       card={card}
       key={i}
@@ -18,6 +17,7 @@ function Projects ({handleClosePopup, onCardClick}) {
 
   return (
     <section className='projects'>
+      <h1 className='projects__title'>Проекты</h1>
       <div>
         
       </div>

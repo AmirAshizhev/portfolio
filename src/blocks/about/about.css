@@ -1,0 +1,53 @@
+.about{
+
+}
+
+.about__title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 58px;
+  letter-spacing: -0.04em;
+  margin: 0;
+  color: #566F7D;
+  margin-bottom: 30px;
+}
+
+.about__resume {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #566F7D;
+}
+
+.about__link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  color: #566F7D;
+  align-self: end;
+  border: 1px solid #566F7D;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.about__link:hover {
+  cursor: pointer;
+  opacity: 0.7;  
+  color: red;
+  /* background-color: white; */
+}
+
+@media (max-width: 768px){
+
+  .about__title{
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
