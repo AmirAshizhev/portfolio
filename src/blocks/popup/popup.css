@@ -29,13 +29,14 @@
 .popup__container{
   width: 600px;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 20px;
   position: relative;
   cursor: auto;
   display: flex;
   flex-direction: column;
   position: absolute;
   top: 10%;
+  padding: 20px;
 }
 
 .popup__btn{
@@ -58,7 +59,7 @@
 }
 
 .popup__img{
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px;
 }
 
 .popup__title{
@@ -70,6 +71,10 @@
   /* line-height: 120%; */
   letter-spacing: 0.003em;
   text-align: start;
+}
+
+.popup__title:last-child{
+  margin-bottom: 0px;
 }
 
 .popup__span{
@@ -89,7 +94,7 @@ opacity: 0.7;
   display: flex;
   flex-direction: column;
   align-items: start;
-  padding: 0 20px;
+  padding: 0;
 }
 
 @media (max-width: 768px){
